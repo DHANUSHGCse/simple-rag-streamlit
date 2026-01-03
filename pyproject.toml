@@ -1,0 +1,17 @@
+[project]
+name = "simplerag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "docx2txt>=0.9",
+    "jq>=1.10.0",
+    "langchain>=1.2.0",
+    "langchain-community>=0.4.1",
+    "openpyxl>=3.1.5",
+    "pymupdf>=1.26.7",
+    "python-docx>=1.2.0",
+    "streamlit>=1.52.2",
+    "unstructured[local-inference]>=0.18.24",
+]

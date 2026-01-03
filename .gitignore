@@ -1,0 +1,76 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Virtual Environments
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Logs & Cache
+# =========================
+*.log
+.cache/
+.pytest_cache/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Vector Stores / Indexes
+# =========================
+faiss_index/
+chroma/
+vectorstore/
+*.faiss
+*.pkl
+
+# =========================
+# Uploaded / Parsed Files
+# =========================
+uploads/
+parsed_files/
+tmp/
+temp/
+*.pdf
+*.csv
+*.xlsx
+*.docx
+*.json
+*.txt
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+dist/
+*.egg-info/
